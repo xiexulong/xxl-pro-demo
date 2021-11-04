@@ -1,0 +1,20 @@
+# Project exclude paths
+/xxl-activiti/target/
+/xxl-activiti-demo/target/
+/xxl-aop-log/target/
+/xxl-cron/target/
+/xxl-dynamic-security/target/
+/xxl-easyexcel/target/
+/xxl-easypoi/target/
+/xxl-elasticsearch/target/
+/xxl-jasypt/target/
+/xxl-minio/target/
+/xxl-mongodb/target/
+/xxl-mybatis/target/
+/xxl-oauth2/target/
+/xxl-prometheus/target/
+/xxl-rabbitmq/target/
+/xxl-redis/target/
+/xxl-security-demo/target/
+/xxl-security-jwt/target/
+/xxl-security-jwt2/target/

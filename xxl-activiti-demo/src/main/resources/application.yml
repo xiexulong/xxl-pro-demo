@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  session:
+    timeout: 3600
+spring:
+  activiti:
+    # 数据库执行策略,true 会对数据库中所有的表进行更新,没有就会自动创建
+    database-schema-update: true
+    #保存历史数据级别设置为full最高级别，便于历史数据的追溯
+    history-level: full
+    # 检测身份信息表是否存在 默认值即可
+    db-identity-used: false
+  #数据源配置
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    #nullCatalogMeansCurrent=true 使用指定的数据库进行查询。优先取当前传入的数据库名，其次取当前链接的数据库名
+    url: jdbc:mysql://localhost:3306/xxl_activiti6?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true
+    username: xxl
+    password: helloxxl
+
+
+

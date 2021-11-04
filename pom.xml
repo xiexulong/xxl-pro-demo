@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.xxl</groupId>
+  <artifactId>xxl-pro-demo</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>xxl-easypoi</module>
+    <module>xxl-mybatis</module>
+    <module>xxl-redis</module>
+    <module>xxl-security-jwt</module>
+    <module>xxl-cron</module>
+    <module>xxl-elasticsearch</module>
+    <module>xxl-mongodb</module>
+    <module>xxl-rabbitmq</module>
+    <module>xxl-aop-log</module>
+    <module>xxl-minio</module>
+    <module>xxl-dynamic-security</module>
+      <!--<module>xxl-gateway-oauth2</module>-->
+    <module>xxl-security-jwt2</module>
+    <module>xxl-activiti</module>
+    <module>xxl-easyexcel</module>
+    <module>xxl-activiti-demo</module>
+    <module>xxl-jasypt</module>
+    <module>xxl-prometheus</module>
+    <module>xxl-security-demo</module>
+    <module>xxl-oauth2</module>
+    <module>xxl-oauth2-redis</module>
+    <module>xxl-oauth2-jwt</module>
+    <module>xxl-oauth2-sso</module>
+  </modules>
+
+  <name>xxl-pro-demo</name>
+
+
+</project>

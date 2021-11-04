@@ -1,0 +1,13 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /xxl
+
+logging:
+  level:
+    org.springframework.web: TRACE
+
+springfox:
+  documentation:
+    enabled: true
+

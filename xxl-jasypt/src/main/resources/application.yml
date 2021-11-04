@@ -1,0 +1,77 @@
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+#    url: jdbc:mysql://localhost:3306/xxl_activiti6?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true
+#    username: xxl
+#    password: helloxxl
+    url: ENC(U/ZSdbReLHnQjNQ9eooVP2DK76Ow6H7aWhnyhttK/gHPXjGKWD25JB8v8XGFAjRAf35rxlflrvXU0a8mq7IZHG3NgDIWB04NYLedIZOKF6vdovPWVvhmA9w9UBFxpWUHYjgzCcpfUUjWuykxJKTeQt99VG9Mz0HOoel/ZPuV/d7ewVsJsD97Hi/NQPuLbNBb)
+    username: ENC(ZizzqSyQlO1iXCPX7FuY9g==)
+    password: ENC(hAvf6B2UqEjkaxRnAq0CF03vzgsqPSoY)
+    druid:
+      # 初始连接数
+      initialSize: 5
+      # 最小连接池数量
+      minIdle: 10
+      # 最大连接池数量
+      maxActive: 20
+      # 配置获取连接等待超时的时间
+      maxWait: 60000
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      timeBetweenEvictionRunsMillis: 60000
+      # 配置一个连接在池中最小生存的时间，单位是毫秒
+      minEvictableIdleTimeMillis: 300000
+      # 配置一个连接在池中最大生存的时间，单位是毫秒
+      maxEvictableIdleTimeMillis: 900000
+      # 配置检测连接是否有效
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      webStatFilter:
+        enabled: true
+      statViewServlet:
+        enabled: true
+        # 设置白名单，不填则允许所有访问
+        allow:
+        url-pattern: /druid/*
+        # 控制台管理用户名和密码
+        login-username:
+        login-password:
+      filter:
+        stat:
+          enabled: true
+          # 慢SQL记录
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          merge-sql: true
+        wall:
+          config:
+            multi-statement-allow: true
+
+
+
+#配置密钥和指定加解密算法
+jasypt:
+  encryptor:
+    ## 秘钥
+    password: lybgeek
+    #这个格式我们是可以随意定义
+#    property:
+#      prefix: "ENC("
+#      suffix: ")"
+    #因为我工具类使用的是加解密的工具类是BasicTextEncryptor，其对应配置加解密就是PBEWithMD5AndDES和org.jasypt.iv.NoIvGenerator
+    algorithm: PBEWithMD5AndDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+
+
+#jasypt.encryptor.password 秘钥是个安全性要求比较高的属性，所以一般不建议直接放在项目内，可以通过启动时-D参数注入，或者放在配置中心，避免泄露。
+# java -jar -Djasypt.encryptor.password=1123  xxl-jasypt.jar

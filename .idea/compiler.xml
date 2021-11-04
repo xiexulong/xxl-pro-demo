@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xxl-easyexcel" />
+        <module name="xxl-oauth2-jwt" />
+        <module name="xxl-cron" />
+        <module name="xxl-aop-log" />
+        <module name="xxl-security-demo" />
+        <module name="xxl-activiti-demo" />
+        <module name="xxl-jasypt" />
+        <module name="xxl-oauth2-sso" />
+        <module name="xxl-activiti" />
+        <module name="xxl-minio" />
+        <module name="xxl-elasticsearch" />
+        <module name="xxl-oauth2" />
+        <module name="xxl-oauth2-redis" />
+        <module name="xxl-rabbitmq" />
+        <module name="xxl-prometheus" />
+        <module name="xxl-mongodb" />
+        <module name="xxl-security-jwt" />
+        <module name="xxl-redis" />
+        <module name="xxl-security-jwt2" />
+        <module name="xxl-easypoi" />
+        <module name="xxl-mybatis" />
+        <module name="xxl-dynamic-security" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oauth2-gateway" target="1.8" />
+      <module name="xxl-activiti-modeler" target="1.8" />
+      <module name="xxl-authorization-server" target="1.8" />
+      <module name="xxl-gateway-oauth2" target="1.8" />
+      <module name="xxl-resource-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xxl-activiti" options="-parameters" />
+      <module name="xxl-activiti-demo" options="-parameters" />
+      <module name="xxl-activiti-modeler" options="-parameters" />
+      <module name="xxl-aop-log" options="-parameters" />
+      <module name="xxl-authorization-server" options="" />
+      <module name="xxl-cron" options="-parameters" />
+      <module name="xxl-dynamic-security" options="-parameters" />
+      <module name="xxl-easypoi" options="-parameters" />
+      <module name="xxl-elasticsearch" options="-parameters" />
+      <module name="xxl-jasypt" options="-parameters" />
+      <module name="xxl-minio" options="-parameters" />
+      <module name="xxl-mongodb" options="-parameters" />
+      <module name="xxl-mybatis" options="-parameters" />
+      <module name="xxl-oauth2" options="-parameters" />
+      <module name="xxl-oauth2-jwt" options="-parameters" />
+      <module name="xxl-oauth2-redis" options="-parameters" />
+      <module name="xxl-oauth2-sso" options="-parameters" />
+      <module name="xxl-prometheus" options="-parameters" />
+      <module name="xxl-rabbitmq" options="-parameters" />
+      <module name="xxl-redis" options="-parameters" />
+      <module name="xxl-resource-server" options="-parameters" />
+      <module name="xxl-security-demo" options="-parameters" />
+      <module name="xxl-security-jwt" options="-parameters" />
+      <module name="xxl-security-jwt2" options="-parameters" />
+    </option>
+  </component>
+</project>

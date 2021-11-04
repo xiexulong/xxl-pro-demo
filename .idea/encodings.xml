@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/xxl-activiti-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-activiti/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-aop-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-cron/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-dynamic-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-easyexcel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-easypoi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-gateway-oauth2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-jasypt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-minio/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-mongodb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-oauth2-jwt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-oauth2-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-oauth2-sso/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-oauth2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-prometheus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-rabbitmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-security-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-security-jwt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-security-jwt2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-security-jwt2/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
